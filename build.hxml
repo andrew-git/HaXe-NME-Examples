@@ -1,0 +1,62 @@
+-cmd cd src
+--next
+-cmd haxelib run nme build "AntsExample.nmml" flash   
+--next
+-cmd haxelib run nme build "BitmapExample.nmml" flash          
+--next
+-cmd haxelib run nme build "BugsBowsExample.nmml" flash          
+--next
+-cmd haxelib run nme build "ColorTransformExample.nmml" flash        
+--next
+-cmd haxelib run nme build "DisplayObjectExample.nmml" flash           
+--next
+-cmd haxelib run nme build "ExternalInterfaceExample.nmml" flash        
+--next
+-cmd haxelib run nme build "FiltersExample.nmml" flash                  
+--next
+-cmd haxelib run nme build "GraphicsDataExample.nmml" flash            
+--next
+-cmd haxelib run nme build "GraphicsExample.nmml" flash              
+--next
+-cmd haxelib run nme build "LoaderExample.nmml" flash               
+--next
+-cmd haxelib run nme build "LocalConnectionExample.nmml" flash     
+--next
+-cmd haxelib run nme build "MasksExample.nmml" flash               
+--next
+-cmd haxelib run nme build "MovieClipExample.nmml" flash          
+--next
+-cmd haxelib run nme build "MultiTouchExample.nmml" flash         
+--next
+-cmd haxelib run nme build "ParticleExample.nmml" flash           
+--next
+-cmd haxelib run nme build "PointsExample.nmml" flash             
+--next
+-cmd haxelib run nme build "RaycasterExample.nmml" flash          
+--next
+-cmd haxelib run nme build "SharedObjectExample.nmml" flash       
+--next
+-cmd haxelib run nme build "SimpleButtonExample.nmml" flash       
+--next
+-cmd haxelib run nme build "SpriteExample.nmml" flash            
+--next
+-cmd haxelib run nme build "StageExample.nmml" flash        
+--next
+-cmd haxelib run nme build "TextExample.nmml" flash         
+--next
+-cmd haxelib run nme build "TextFieldExample.nmml" flash     
+--next
+-cmd haxelib run nme build "TextInputExample.nmml" flash     
+--next
+-cmd haxelib run nme build "TextScrollExample.nmml" flash    
+--next
+-cmd haxelib run nme build "TilesExample.nmml" flash       
+--next
+-cmd haxelib run nme build "TransformMatrixExample.nmml" flash    
+--next
+-cmd haxelib run nme build "TrianglesExample.nmml" flash    
+--next
+-cmd haxelib run nme build "URLLoaderExample.nmml" flash
+--next
+-cmd cd ..
+-cmd copy assets\* bin\flash\bin
