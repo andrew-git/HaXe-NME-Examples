@@ -42,7 +42,7 @@ import flash.geom.Matrix;
 import flash.geom.Transform;
 import flash.geom.ColorTransform;
 import flash.events.MouseEvent;
-
+import nme.installer.Assets;
 
 class ColorTransformExample extends Sprite 
 {
@@ -55,7 +55,7 @@ class ColorTransformExample extends Sprite
       draw(target);
 
       addChild(target);
-      var data:BitmapData = ApplicationMain.getAsset(Assets.image_jpg);
+      var data:BitmapData = ApplicationMain.getAsset("image.jpg");
       var bmp = new Bitmap(data);
       bmp.alpha = 0.5;
       bmp.x = 50;
